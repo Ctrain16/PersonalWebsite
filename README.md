@@ -6,4 +6,4 @@ Includes the code to a simple HTML5 snake game.
 
 ## Hosting
 
-Hosted using Netlify, check it out at caltrainor.com
+Hosted using Netlify, check it out at [caltrainor.com](https://caltrainor.com/)
