@@ -94,9 +94,24 @@ a {
 .section-title {
   max-width: max-content;
   padding-top: 20vh;
-  padding-right: 10vw;
-  padding-left: 10vw;
   height: 100vh;
+}
+
+.section-title h1 {
+  font-size: 1.6vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .section-title h1 {
+    font-size: 3vw;
+  }
+  .section-title p {
+    font-size: 2vw;
+  }
+}
+
+.section-title > * {
+  margin-bottom: 3vh;
 }
 
 .section-about,
@@ -180,11 +195,6 @@ footer {
 .logo-links {
   position: absolute;
   right: 10vw;
-}
-
-/* Elements */
-.section-title > * {
-  margin: 2vh;
 }
 
 /* Buttons */
